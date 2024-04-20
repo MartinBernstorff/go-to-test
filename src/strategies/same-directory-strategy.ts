@@ -1,6 +1,6 @@
 import Strategy from 'interfaces/strategy';
 
-const testPattern = /^(?<filePath>.*)_test(?<ext>[^\.]+)$/;
+const testPattern = /^(?<filePath>.*)_test\.(?<ext>[^\.]+)$/;
 const sourcePattern = /^(?<filePath>.*)\.(?<ext>[^\.]+)$/;
 
 const sourceTemplate = '$<filePath>.$<ext>';
